@@ -1,0 +1,22 @@
+[package]
+name = "toxannotator"
+version = "0.6.0"
+edition = "2024"
+readme = "README.md"
+license = "MIT"
+authors = ["Gaurav Sablok"]
+description = "tox annotator for ToxDB"
+homepage = "https://codeberg.org/gsablok/toxannotator"
+repository = "https://codeberg.org/gsablok/toxannotator"
+keywords = ["bioinformatics","genomics"]
+
+[dependencies]
+axonml = "0.4.1"
+charts-rs = "0.3.27"
+clap = { version = "4.5.53", features = ["derive"] }
+figlet-rs = "0.1.5"
+kuva = "0.1.4"
+plotiron = "0.1.2"
+plotpy = "1.14.0"
+plotters = "0.3.7"
+rayon = "1.11.0"
